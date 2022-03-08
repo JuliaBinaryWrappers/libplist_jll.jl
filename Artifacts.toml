@@ -1,115 +1,288 @@
 [[libplist]]
 arch = "aarch64"
-git-tree-sha1 = "73c249e8d0988b4bb6bb69eb134fb49ec9d486f9"
-libc = "glibc"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "3fa0e6532c487f95a2d47aca891ac333eae81214baf5765f2df5127f02832594"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.aarch64-linux-gnu.tar.gz"
-[[libplist]]
-arch = "aarch64"
-git-tree-sha1 = "76bd0086e2922f1c27106c9a0c38d0093a0e08ec"
-libc = "musl"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "d718f122b1d419a11ab0bf1e2f2751174d5e512519920b2023a69e8edea9263a"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.aarch64-linux-musl.tar.gz"
-[[libplist]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "1d4ed4185ddb722e597bb955e367fd8c018cb970"
-libc = "glibc"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "9afb196d01dc087ce47ed33ff9b56320065360526e0cfd11f30ad44d9f6ed651"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.armv7l-linux-gnueabihf.tar.gz"
-[[libplist]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "57fda3add9188d254ea18418a6649d6189e1ba74"
-libc = "musl"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "1647ef1d4e5a9c4a22d6f1b3b4af0a7440126adad4dce08ad1052487ff3817f1"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.armv7l-linux-musleabihf.tar.gz"
-[[libplist]]
-arch = "i686"
-git-tree-sha1 = "fbee699ab24e65dc43c5e3173468978cbb020eed"
-libc = "glibc"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "038e3fc57783576bb9b836f972dd7485ec5d20a5464b62ef07e4c387e9bcc219"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.i686-linux-gnu.tar.gz"
-[[libplist]]
-arch = "i686"
-git-tree-sha1 = "e7209b55a6c81d0e3f6de47633ac1ee5dbaf796e"
-libc = "musl"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "bc3dbaf03efb3d7e3837b2da82ae3bb271861b9b8e19fae8de320949c1508338"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.i686-linux-musl.tar.gz"
-[[libplist]]
-arch = "i686"
-git-tree-sha1 = "c23656033a02d3dccd6bde8a5f3edbdc7dd397c4"
-os = "windows"
-
-    [[libplist.download]]
-    sha256 = "c2d25e946ca01c9f4a0722efa2c6accf9bb885b1cf36b8b5cdd30c7d9356553f"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.i686-w64-mingw32.tar.gz"
-[[libplist]]
-arch = "powerpc64le"
-git-tree-sha1 = "3f270e0995f3c08cced8fa9be4211a1c81b5bc3d"
-libc = "glibc"
-os = "linux"
-
-    [[libplist.download]]
-    sha256 = "f205f47d8eb04110a6ed6b723f48d213a5a50a839b6050a212717e7aca2452c7"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.powerpc64le-linux-gnu.tar.gz"
-[[libplist]]
-arch = "x86_64"
-git-tree-sha1 = "1d34d5e159e03551708685bb4a2162cec27b95d4"
+git-tree-sha1 = "28ab0ad2e64de84777b9e6e2897d5c37ba2cf1d0"
 os = "macos"
 
     [[libplist.download]]
-    sha256 = "24c9bbf4f350e0969fc048d3483f2fddcb598404a6046dca7001a51ce1c2a157"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "0f72dafd44a25a55bead4f80445ad02360247dea74ef2512cd3ec4d95f7ae5a4"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.aarch64-apple-darwin.tar.gz"
 [[libplist]]
-arch = "x86_64"
-git-tree-sha1 = "cc34355912d40e417d1984daa5327d5af327d1bd"
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7f9a61c56521b5dfc695185274c50a9372887edd"
 libc = "glibc"
 os = "linux"
 
     [[libplist.download]]
-    sha256 = "811c6a4ca0c6dc6b1d5cd852d22b2eb7f20668739f68a1c3bb1766d99b7c018e"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "f21f15d38c75ad68da957fbd3137ac6f9fd3795b86d396fc09cc69d2d39f74a1"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.aarch64-linux-gnu-cxx03.tar.gz"
 [[libplist]]
-arch = "x86_64"
-git-tree-sha1 = "25a0ff0bb6ddad2fb6f3b4c9b7c1e131d95ec9b9"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "491ba6da99a1e9defabc38a5a56d7cd0612f0e7a"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "b511ea9bd1947ee88907181f4e861ac5cbf17a5b21c3020c83d298f4dec720d3"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[libplist]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a97336a180b15a6ae0d19e03339d71dfafc8b83d"
 libc = "musl"
 os = "linux"
 
     [[libplist.download]]
-    sha256 = "1b02d6fd8b77b71eaf672f15fecd8b38ef1e167baf469399b7d52435c11d414b"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.x86_64-linux-musl.tar.gz"
+    sha256 = "5e7f3938b58d67b5017c88c7d7a6c730f887489feec424f2987f9b52f443c5eb"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.aarch64-linux-musl-cxx03.tar.gz"
 [[libplist]]
-arch = "x86_64"
-git-tree-sha1 = "aaae53b7feefd42fd8a38462a4bf2d8236d356d5"
-os = "freebsd"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b2d712eda26b82954a53ee6d3339ff7ad418321f"
+libc = "musl"
+os = "linux"
 
     [[libplist.download]]
-    sha256 = "b836a378025563a35918d0e4fba0227f990fc881a407f1634e7f91dc917bf55d"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "0ec77cd3d4f87061b026cc9b6cfa73d574ed5f83c2e4b0c2b96b157ec8b8f1b6"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.aarch64-linux-musl-cxx11.tar.gz"
 [[libplist]]
-arch = "x86_64"
-git-tree-sha1 = "d123586365c199189329e5b307dce0f922e3320a"
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4ae04d231f5eff077f5c90376ee87bd9fe7ad57d"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "14338c22a4da0a972f73ffd7e705e2f18097cbc6700aa8c15fe89c9a8b43de41"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[libplist]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a8e86ca37a48e9a95c16b5231744287ba745a867"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "212e82101405a1c91a4a1df719cd29b34e09f6843bc67ecdb416e5a9def12124"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[libplist]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bfdbdd9655e4f0d6eb48c076008a4f3c9544d39f"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "e5b75f74b83fb5863138ce64df14bd309ef23feab69c428f4aca4cfba2f6c929"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[libplist]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56366215446cd698786eb61cc9324747dc58f665"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "3071dcb23b6bf478bee984fc1730a812bb5e91eed44f1b253e51fbc8a5333f8a"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[libplist]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "40a12ce403825a5890c509798157d71682f1bc94"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "1dfbd05fbfebcc791acc002212a31ba1b26cdd87633c28453739b2b54df048f7"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[libplist]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4e292c9351da447247f6ef5ca61aeaa7ebf43bfc"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "82fab965343e37606581c6db5e3f3037c943b7e776d93c87993525aea189bfe0"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[libplist]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6ef64dbeff16b02fb1bcfffe52a0f0b843a2c33d"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "348e754b7ecf16001f4cf78bd4da3593492fcde1ef7795974259256279a50420"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[libplist]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "86141cc4c2860843d3833ab2debe3a8036fbf2db"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "20ea7011757392eb621892ec1c284ce9cbbf4d92e54b301258468fa47fe1a973"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "544dd467ba9d423a9adff337d90ec8d0ab003198"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "ef2ee71690d418f40e4754a20339f663df9828225ba9114e4d38663d0a58c247"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-linux-gnu-cxx03.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "75ebaf4728c2a50d08b90a9de86b489b2d633db7"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "f1354282791586bd9e98afec4224447385724e500cb4291245847111c60dd6b3"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-linux-gnu-cxx11.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "dc94967bbda62999fb8ce731bbcb09b47d350b4b"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "8a0e18e7dd169625a48eb655746ca6fca58c6eea85f89d3d60820350f067839c"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-linux-musl-cxx03.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "29d5a2b2202123113d2d66f154be5492b9630bb3"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "8faacec9f42d241c98b766c7df6ff0b7f744dc06d3e4e0b564af53a259f8b4ac"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-linux-musl-cxx11.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8f490dad5f1e6d8539273a90d7424a5278d4d554"
 os = "windows"
 
     [[libplist.download]]
-    sha256 = "d13bb729e94c300d9b18f1021de0de1ad88bc5a6f822dcab0751501ee867aa23"
-    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.0+0/libplist.v2.2.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "c1f4db6e088576be69fd1526d295862e56b9df18edd6c09a2f2907b394ec80aa"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-w64-mingw32-cxx03.tar.gz"
+[[libplist]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "637c2dcc856140c649ab12edf6c9e62e5317d12e"
+os = "windows"
+
+    [[libplist.download]]
+    sha256 = "f61ba4e290fdd871742d90837d546222e61a4b51afdc70a10fd21131900ecb50"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.i686-w64-mingw32-cxx11.tar.gz"
+[[libplist]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "933d399cce0252074af13f348d9419202cef1056"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "5685a8c9e8341ef03d218e87d98894126960cf9100eaf98f006977af5d2c0ac7"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[libplist]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "625429fa6905019c723553b450374803d12e4e72"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "85bb9f03190b0368902bbb8877477f6cc6eb6705c2e43f1970d3f312bf6d0557"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[libplist]]
+arch = "x86_64"
+git-tree-sha1 = "74395f6a434ed4498c5f41af79153791fe05a21b"
+os = "macos"
+
+    [[libplist.download]]
+    sha256 = "2180409adddd7df401a146ccd2708845f4c0fc86b6d7c887f09785be36636569"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-apple-darwin.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5c1e2c551685ad65f24e32f1371dab2d77f40aa0"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "bd3aae5ef20673eecf7197914ee10c73c78bc689df97b8370c66b8c574f95271"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "accb7a5295f91d4778a9c42bdc3c765aafb614b3"
+libc = "glibc"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "aa5186cce419cd1bae4874003dbf18d8e69b99245e0c5548b66d9aecb4d7fe5b"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "efd0664b4781abc714ad9f388a559ebdaaad8116"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "247cd453038e10174c35d6caf037bf76b2a7133016b3ab700a1f1afc5f0f0686"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-linux-musl-cxx03.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "89bfc54ea6b454ce5f2b2639d51e0bdfe10bc87f"
+libc = "musl"
+os = "linux"
+
+    [[libplist.download]]
+    sha256 = "f881818f288d3a82a1ca98e4a011f44289f2bc8c1ba8cfdafe4f1690af0cf4ae"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-linux-musl-cxx11.tar.gz"
+[[libplist]]
+arch = "x86_64"
+git-tree-sha1 = "f052c4190bace8acc9f80079a29d1d7860d01aa5"
+os = "freebsd"
+
+    [[libplist.download]]
+    sha256 = "9113d48f793c8706d171520d874778046025edbbd29e818092f577aa9b5b33c5"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-unknown-freebsd.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8e1629017c253d8a2c016a596ca6de0fa4e94ad5"
+os = "windows"
+
+    [[libplist.download]]
+    sha256 = "53384b98942aacfb9854e1d490795b86226ab15d30d6fdf4042d5dce759bf6d3"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[libplist]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8f5763d7c927ad396e86ebaa5f2cb4a289c03d3a"
+os = "windows"
+
+    [[libplist.download]]
+    sha256 = "db2d34e4201b3dfdef6b9d0e91294aa2755d3521888d7360306b54ac09d62938"
+    url = "https://github.com/JuliaBinaryWrappers/libplist_jll.jl/releases/download/libplist-v2.2.1+0/libplist.v2.2.1.x86_64-w64-mingw32-cxx11.tar.gz"
