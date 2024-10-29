@@ -2,7 +2,7 @@
 export libplist, plistutil
 
 JLLWrappers.@generate_wrapper_header("libplist")
-JLLWrappers.@declare_library_product(libplist, "libplist-2.0.so.3")
+JLLWrappers.@declare_library_product(libplist, "libplist-2.0.so.4")
 JLLWrappers.@declare_executable_product(plistutil)
 function __init__()
     JLLWrappers.@generate_init_header()
